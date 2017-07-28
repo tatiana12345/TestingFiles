@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TC1 Parallel Testing" parallel = "classes" thread-count ="2">
+	<test name="Test Firefox">
+		<classes>
+			<class name="com.amazon.TestingFiles.TestNG_Login"></class>
+			<class name="com.amazon.TestingFiles.TestNGLogin_Chrome"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TC2 Parallel Testing" parallel="tests" thread-count="2">
+	<test name="Test Firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.amazon.TestingFiles.TestNG_ToysAndGames"></class>
+		</classes>
+	</test>
+
+	<test name="Test Chrome">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.amazon.TestingFiles.TestNG_ToysAndGames"></class>
+		</classes>
+	</test>
+</suite>

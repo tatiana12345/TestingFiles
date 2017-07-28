@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TC3 Books title verification" parallel="tests" thread-count="2">
+<!-- 	<test name="TC3 Firefox">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.amazon.TestingFiles.TC3_Books"></class>
+		</classes>
+	</test> -->
+	
+	<test name="TC3 Chrome">
+		<!-- <parameter name="browser" value="chrome"></parameter> -->
+		<classes>
+			<class name="com.amazon.TestingFiles.TC3_Books2_Chrome"></class>
+		</classes>
+	</test>
+</suite>

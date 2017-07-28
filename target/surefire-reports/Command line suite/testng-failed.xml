@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.amazon.TestingFiles.TestNG_ToysAndGames">
+        <methods>
+          <include name="afterClass"/>
+          <include name="tearDown"/>
+          <include name="multipleBrowsers_SetUp"/>
+          <include name="beforeClass"/>
+          <include name="LoopThroughAllElementsTopPage"/>
+        </methods>
+      </class> <!-- com.amazon.TestingFiles.TestNG_ToysAndGames -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

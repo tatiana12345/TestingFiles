@@ -1,0 +1,10 @@
+com/amazon/TestingFiles/TestNGLogin_Chrome.class
+utilities/excelUtility.class
+utilities/FailedTCScreenshot.class
+utilities/utility.class
+utilities/SearchPageFactory.class
+utilities/reportPath.class
+com/amazon/TestingFiles/TestNGLogin_Firefox.class
+com/amazon/TestingFiles/TestNG_Grouping.class
+utilities/Constants.class
+utilities/FailedTCScreenshot$ScreenShotMethod.class

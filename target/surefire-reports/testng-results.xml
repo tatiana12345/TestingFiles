@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TC2 Parallel Testing" duration-ms="57512" started-at="2017-07-27T16:14:03Z" finished-at="2017-07-27T16:15:01Z">
+    <groups>
+    </groups>
+    <test name="Test Firefox" duration-ms="52549" started-at="2017-07-27T16:14:03Z" finished-at="2017-07-27T16:14:56Z">
+      <class name="com.amazon.TestingFiles.TestNG_ToysAndGames">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.amazon.TestingFiles.TestNG_ToysAndGames@4909b8da]" name="beforeClass" is-config="true" duration-ms="5237" started-at="2017-07-27T12:14:03Z" finished-at="2017-07-27T12:14:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="multipleBrowsers_SetUp(java.lang.String)[pri:0, instance:com.amazon.TestingFiles.TestNG_ToysAndGames@4909b8da]" name="multipleBrowsers_SetUp" is-config="true" duration-ms="5250" started-at="2017-07-27T12:14:08Z" finished-at="2017-07-27T12:14:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleBrowsers_SetUp -->
+        <test-method status="PASS" signature="LoopThroughAllElementsTopPage()[pri:0, instance:com.amazon.TestingFiles.TestNG_ToysAndGames@4909b8da]" name="LoopThroughAllElementsTopPage" duration-ms="38364" started-at="2017-07-27T12:14:14Z" finished-at="2017-07-27T12:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoopThroughAllElementsTopPage -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.amazon.TestingFiles.TestNG_ToysAndGames@4909b8da]" name="afterClass" is-config="true" duration-ms="3680" started-at="2017-07-27T12:14:52Z" finished-at="2017-07-27T12:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.amazon.TestingFiles.TestNG_ToysAndGames@4909b8da]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-27T12:14:52Z" finished-at="2017-07-27T12:14:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoopThroughAllElementsTopPage status=SUCCESS method=TestNG_ToysAndGames.LoopThroughAllElementsTopPage()[pri:0, instance:com.amazon.TestingFiles.TestNG_ToysAndGames@4909b8da] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.TestingFiles.TestNG_ToysAndGames -->
+    </test> <!-- Test Firefox -->
+    <test name="Test Chrome" duration-ms="57512" started-at="2017-07-27T16:14:03Z" finished-at="2017-07-27T16:15:01Z">
+      <class name="com.amazon.TestingFiles.TestNG_ToysAndGames">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.amazon.TestingFiles.TestNG_ToysAndGames@12843fce]" name="beforeClass" is-config="true" duration-ms="10152" started-at="2017-07-27T12:14:03Z" finished-at="2017-07-27T12:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="multipleBrowsers_SetUp(java.lang.String)[pri:0, instance:com.amazon.TestingFiles.TestNG_ToysAndGames@12843fce]" name="multipleBrowsers_SetUp" is-config="true" duration-ms="5468" started-at="2017-07-27T12:14:13Z" finished-at="2017-07-27T12:14:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleBrowsers_SetUp -->
+        <test-method status="PASS" signature="LoopThroughAllElementsTopPage()[pri:0, instance:com.amazon.TestingFiles.TestNG_ToysAndGames@12843fce]" name="LoopThroughAllElementsTopPage" duration-ms="38726" started-at="2017-07-27T12:14:19Z" finished-at="2017-07-27T12:14:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoopThroughAllElementsTopPage -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.amazon.TestingFiles.TestNG_ToysAndGames@12843fce]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-07-27T12:14:58Z" finished-at="2017-07-27T12:14:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoopThroughAllElementsTopPage status=SUCCESS method=TestNG_ToysAndGames.LoopThroughAllElementsTopPage()[pri:0, instance:com.amazon.TestingFiles.TestNG_ToysAndGames@12843fce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.amazon.TestingFiles.TestNG_ToysAndGames@12843fce]" name="afterClass" is-config="true" duration-ms="3162" started-at="2017-07-27T12:14:58Z" finished-at="2017-07-27T12:15:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.amazon.TestingFiles.TestNG_ToysAndGames -->
+    </test> <!-- Test Chrome -->
+  </suite> <!-- TC2 Parallel Testing -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TC3 Books title verification]" parallel="tests">
+  <test name="TC3 Chrome(failed)" parallel="tests">
+    <classes>
+      <class name="com.amazon.TestingFiles.TC3_Books2_Chrome">
+        <methods>
+          <include name="afterClass"/>
+          <include name="BooksSectionTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.amazon.TestingFiles.TC3_Books2_Chrome -->
+    </classes>
+  </test> <!-- TC3 Chrome(failed) -->
+</suite> <!-- Failed suite [TC3 Books title verification] -->
